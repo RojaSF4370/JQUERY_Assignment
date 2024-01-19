@@ -1,0 +1,51 @@
+$primary-color: orange;
+$grid-background-color: rgba(223, 211, 211, 0.305);
+$box-shadow-color: rgba(223, 211, 211, 0.305);
+
+.container {
+  // background-color: grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow: hidden;
+
+  .grid {
+    background-color: $grid-background-color;
+    box-shadow: 0 0 10px $box-shadow-color;
+    width: auto;
+    padding: 10px;
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+
+    img {
+      width: 200px;
+    }
+    p {
+      font-size: 23px;
+      line-height: 40px;
+      overflow: hidden;
+      text-align: center;
+    }
+    h2 {
+      text-align: center;
+    }
+
+    button {
+      cursor: pointer;
+      margin-top: 20px;
+      text-transform: uppercase;
+      border-radius: 20px;
+      width: 150px;
+      height: 60px;
+      color: $primary-color;
+      font-size: 15px;
+      font-weight: bold;
+      border: 2px solid transparent;
+      outline: 2px solid $primary-color;
+    }
+  }
+}

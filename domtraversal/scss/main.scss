@@ -1,0 +1,34 @@
+@import './text';
+@import './font';
+.container{
+    #countElements{
+        width: 150px;
+        height: 50px;
+    }
+    #changeTagsColor{
+        width: 150px;
+        height: 50px;
+    }
+.QA{
+    
+    h2{
+        font-family: $main-font;
+    }
+    margin:50px 10px;
+    height:20vh;
+    padding-bottom: 20px;
+    .QAdate{
+        display: flex;
+     
+        h5{
+            color: $Secondary-color;
+        }
+        h4{
+            color: $primary-color;
+           
+        }
+
+    }
+
+}
+}

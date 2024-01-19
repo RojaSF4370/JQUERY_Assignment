@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow: hidden;
+}
+.container .grid {
+  background-color: rgba(223, 211, 211, 0.305);
+  box-shadow: 0 0 10px rgba(223, 211, 211, 0.305);
+  width: auto;
+  padding: 10px;
+  margin: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.container .grid img {
+  width: 200px;
+}
+.container .grid p {
+  font-size: 23px;
+  line-height: 40px;
+  overflow: hidden;
+  text-align: center;
+}
+.container .grid h2 {
+  text-align: center;
+}
+.container .grid button {
+  cursor: pointer;
+  margin-top: 20px;
+  text-transform: uppercase;
+  border-radius: 20px;
+  width: 150px;
+  height: 60px;
+  color: orange;
+  font-size: 15px;
+  font-weight: bold;
+  border: 2px solid transparent;
+  outline: 2px solid orange;
+}/*# sourceMappingURL=main.css.map */
+.container .change--color{
+  background-color: blue;
+}
